@@ -1,0 +1,215 @@
+@font-face {
+  font-family: "OT-Medium";
+  src: url("../assets/fonts/Emigre\ -\ ProgramOT-Medium.otf");
+}
+@font-face {
+  font-family: "Museo-900";
+  src: url("../assets/fonts/exljbris\ -\ Museo-900.otf");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* UTILITIES */
+
+a {
+  text-decoration: none;
+}
+
+.border {
+  border: 1px solid #c4c4c4;
+  border-radius: 10px;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.ml-1 {
+  margin-left: 1rem;
+}
+
+.mr-1 {
+  margin-right: 1rem;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.pt-1 {
+  padding-top: 1rem;
+}
+
+.pt-4 {
+  padding-top: 4rem;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+/* COLORS */
+
+.blanco {
+  color: #fff;
+}
+
+.gris {
+  color: #595a5a;
+}
+
+.rojo {
+  color: #ed1c2c;
+}
+
+/* BACKGROUNDS */
+
+.bg-rojo {
+  background: #ed1c2c;
+}
+
+/* BTN */
+
+.btn-vips {
+  background-color: #f5a623;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-family: "OT-Medium";
+}
+
+.btn-vips-desktop {
+  background-color: #f5a623;
+  font-size: 18px;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 25px 0 0 25px;
+  font-family: "OT-Medium";
+  position: fixed;
+  z-index: 999;
+  top: 50px;
+  right: 0;
+}
+
+/* FONTS */
+
+.museo-900 {
+  font-family: "Museo-900";
+}
+
+.OT-Medium {
+  font-family: "OT-Medium";
+}
+
+.f15px {
+  font-size: 15px;
+}
+
+.f18px {
+  font-size: 18px;
+}
+
+.f20px {
+  font-size: 20px;
+}
+
+.f26px {
+  font-size: 26px;
+}
+
+.f28px {
+  font-size: 28px;
+}
+
+.f30px {
+  font-size: 30px;
+}
+
+.f45px {
+  font-size: 45px;
+}
+
+.f51px {
+  font-size: 51px;
+}
+
+.f62px {
+  font-size: 62px;
+}
+
+.f127px {
+  font-size: 127px;
+}
+
+.f218px {
+  font-size: 218px;
+}
+
+/* GENERAL */
+
+.terms {
+  color: #707070;
+}
+
+.terms:hover {
+  color: #575757;
+}
+
+.banner {
+  transform: rotate(-4deg);
+  -webkit-transition: width 1s, height 1s, -webkit-transform 1s; /* Safari */
+  transition: width 0.3s, height 0.3s, transform 0.3s;
+}
+
+.bg-banner {
+  /* background-image: url(../assets/bg-banner.svg); */
+  background-image: url(../assets/Trazado.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: rotate(-4deg);
+  /* margin: -2px; */
+  /* padding: 10px; */
+}
+
+.justify-content-end {
+  justify-content: end;
+}
+
+.text-end {
+  text-align: end;
+}

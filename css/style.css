@@ -2,6 +2,12 @@
   font-family: "OT-Medium";
   src: url("../assets/fonts/Emigre\ -\ ProgramOT-Medium.otf");
 }
+
+@font-face {
+  font-family: "OT-Bold";
+  src: url("../assets/fonts/Emigre\ -\ ProgramOT-Bold.otf");
+}
+
 @font-face {
   font-family: "Museo-900";
   src: url("../assets/fonts/exljbris\ -\ Museo-900.otf");
@@ -35,6 +41,10 @@ a {
   margin-bottom: 1rem;
 }
 
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
 .ml-1 {
   margin-left: 1rem;
 }
@@ -47,6 +57,16 @@ a {
   padding: 1rem;
 }
 
+.px-05 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.px-1 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .pt-1 {
   padding-top: 1rem;
 }
@@ -57,6 +77,10 @@ a {
 
 .w-50 {
   width: 50%;
+}
+
+.w-99 {
+  width: 99%;
 }
 
 .w-100 {
@@ -136,6 +160,10 @@ a {
   font-family: "OT-Medium";
 }
 
+.OT-Bold {
+  font-family: "OT-Bold";
+}
+
 .f15px {
   font-size: 15px;
 }
@@ -157,6 +185,10 @@ a {
 }
 
 .f30px {
+  font-size: 30px;
+}
+
+.f35px {
   font-size: 30px;
 }
 
@@ -197,8 +229,7 @@ a {
 }
 
 .bg-banner {
-  /* background-image: url(../assets/bg-banner.svg); */
-  background-image: url(../assets/Trazado.svg);
+  background-image: url(../assets/trazoEtiqueta.svg);
   background-size: contain;
   background-repeat: no-repeat;
   transform: rotate(-4deg);
@@ -212,4 +243,8 @@ a {
 
 .text-end {
   text-align: end;
+}
+
+.flex-grow-1 {
+  flex-grow: 1;
 }
